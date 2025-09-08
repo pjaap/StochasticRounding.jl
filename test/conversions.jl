@@ -3,7 +3,7 @@
         trueVal = randn(Float64)
         # Convert to each deterministic type to ensure the result is
         # representable in all precisions
-        trueVal=Float16(Float32(BFloat16(trueVal)))
+        trueVal = Float16(Float32(BFloat16(trueVal)))
         bfloatVal = BFloat16sr(trueVal)
         float16Val = Float16sr(trueVal)
         float32Val = Float32sr(trueVal)
@@ -19,7 +19,7 @@ end
         trueVal = randn(Float64)
         # Convert to each deterministic type to ensure the result is
         # representable in all precisions
-        trueVal=Float16(Float32(BFloat16(trueVal)))
+        trueVal = Float16(Float32(BFloat16(trueVal)))
         bfloatVal = BFloat16sr(trueVal)
         float16Val = Float16sr(trueVal)
         float32Val = Float32sr(trueVal)
@@ -35,7 +35,7 @@ end
         trueVal = randn(Float64)
         # Convert to each deterministic type to ensure the result is
         # representable in all precisions
-        trueVal=Float16(Float32(BFloat16(trueVal)))
+        trueVal = Float16(Float32(BFloat16(trueVal)))
         bfloatVal = BFloat16sr(trueVal)
         float16Val = Float16sr(trueVal)
         float32Val = Float32sr(trueVal)
